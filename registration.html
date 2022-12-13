@@ -1,44 +1,230 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> registration form</title>
+<!html>
+        <head>
+            <liDOCTYPE html>
+    <nk rel="stylesheet" href="css/bootstrap.min.css">
+            <script src="js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/register.css">
         </head>
-        <form action="action_page.php">
-          <div class="container">
-            <h1>Register</h1>
-            <p>Please fill your details in this form</p>
-            <div>
-        
-            <label for="First name:"><b>First name:</b></label>
-            <input type="text" placeholder="Enter first name" name="first name" id="name" required>
-      </div>
-      <div>
-            <label for="middle name"><b>middle name</b></label>
-            <input type="text" placeholder="Enter middle name" name="middle name" id="name" required>
-        </div>
-        <div>
-            <label for="last name"><b>last name</b></label>
-            <input type="last name" placeholder="Enter last name" name="last name" id="name" required>
+         <body id="deep">
+            <div class="container">
+                <h1 id="div"> REGISTRATION FORM </h1>
+                <br>
+                <div class="row">
+                    <div class="col">  First Name <br> <input type="text" placeholder=""> </div>
+                     <div class="col"> Last Name <br> <input type="text" placeholder=""> </div>     
             </div>
-          
-        <div>
-            <label for="Aadhar Number"><b>Aadhar number</b></label>
-            <input type="text" placeholder="Enter aadhar number" name="Aadhar number" id="number" required>
-          </div>
-          <div>
-            <label for="PAN details"><b>PAN details</b></label>
-            <input type="number" placeholder="Enter number" name="pan number" id="number" required>
-        </div>
-            <label for="last name"><b>last name</b></label>
-            <input type="last name" placeholder="Enter last name" name="last name" id="name" required>
+            <br>
+            <div class="row">
+                <div class="col"> MAIL.ID <br> <input type="text" placeholder=""> </div>
+                <div class="col"> UserName <br> <input type="text" placeholder=""> </div>
             </div>
-            
+            <br>
+            <div class="row">
+                <div class="col"> Mob.No <br> <input type="text" placeholder=""> </div>
+                <div class="col"> <Address> Address <br> <input type="text" placeholder=""> </Address> </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"> Password <br> <input type="text" placeholder=""> </div>
+                <div class="col"> password(confirm) <br> <input type="text" placeholder=""> </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"> Aadhar.No <br> <input type="text" placeholder=""> </div>
+                <div class="col"> Pan.No  <br> <input type="text" placeholder=""> </div>
+            </div>
+            <br>
+            <div class="row g-3">
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col"> City </div>
+                  <input type="text" class="form-control" placeholder="City" aria-label="City">
+                </div>
+                <br>
+                <div class="col-sm">
+                    <div class="col"> State
+                  <input type="text" class="form-control" placeholder="State" aria-label="State">
+                <div class="col-sm">
+                    <div class="col"> Zip </div>
+                  <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                </div>
+            </div>
+                </div>
+              </div>
+            </div>
+              <br>
+              <h2 id="red">  PROFILE </h2>
+              <div class="upload" >
+                <div class="upload">
+                    <img src="http://ssl.gstatic.com/accounts/ui/avatar_2x.png" width="100" height="100" alt="">
+                    <div class="round">
+                        <input type="file">
+                    </div>
+                      <br>
+            <div class="form-group">
+                <label for="name">
+                    Resume</label>
+                <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2  id="pop"> Education Details </h2>
+    <h4>CLASS X</h4>
+    <div class="row">
+        <div class="col">
+                <label for="board">BOARD</label>
+                 <input type="email" id="email" name="email" class="form-control" placeholder="Enter number">
+                    <label for="subject">
+                        YEAR OF PASSING</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <label for="subject">
+                        CGPA</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                      <label for="name">
+                        UPLOAD</label>
+                    <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+                </div>
+     </div>
+    <br>
+        <h4>CLASS XII</h4>
+    <div class="row">
+        <div class="col">
+                <label for="board">BOARD</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Enter number">
+                   <label for="subject">
+                        YEAR OF PASSING</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <label for="subject">
+                        CGPA</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                 <label for="name">
+                        UPLOAD</label>
+           <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+                </div>
+             </div>
+    <br>
+        <h4>GRADUATION</h4>
+    <div class="row">
+        <div class="col">
+                <label for="board">BOARD</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Enter number">
+                <label for="subject">
+                        YEAR OF PASSING</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <label for="subject">
+                        CGPA</label>
+                    <input type="text" class="form-control" placeholder="Subject">
+                <label for="name"> UPLOAD</label>
+      <input type="file" id="fileselect" name="documents" class="form-control"  style="  width: 310px;">
+                 </div>
+     </div><br><br><br>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              I accept to terms and conditions
+            </label>
+          </div><br><br>
+    
+          <input type="submit" class="btn btn-primary">
+        </div>
+    </div>
+    
+    
+    
+        </div>
+            </body>
+            </html
+    
+    tyle="color:black;background-color:red";>
+<p id="email_id">Email id</p><p>
+<p id="name">NAME:Shaik Muskan</p>
+<p id="course">COURSE:</p>
+<p id="Duration">DURATION:</p>
+<p id="Adhaar_No">ADHAR NO:</p>
+<p id="Mobile_No">MOBILE</p>
+</div>
+<div class="pd">
+  <h1>shaik Muskan</h1>
+  <hr width="1px">
+  <p>phno:630xxxxxxx|email: shaikmuskan1266@gmail.com</p>
+  </div>
+  <div class="obj">
+  <h2 style="background-color:blue">Objective</h2>
+  <p>To associate myself with an organization that provides me an opportunity to use my techno-proficient skills,improve my knowledge and to be a part of the team 
+  that works dynamically towards the growth of the organization.
+  </p>
+  </div>
+  <hr>
+  <div class="Education">
+  <h2 style="background-color:brown">Education Qualification</h2>
+  <table width="100%" cellspacing="3px" cellpadding="10px">
+  <tr>
+  <td>Bsc</td>
+  <td>St.Joseph's Degree College</td>
+  <td>2023</td>
+  <td>75%</td>
+  </tr>
+  <tr>
+  <td>Intermediate</td>
+  <td>Narayana junior college</td>
+  <td>2020</td>
+  <td>95%</td>
+  </tr>
+  <tr>
+  <td>s.s.c</td>
+  <td>keshava Reddy</td>
+  <td>2018</td>
+  <td>93%</td>
+  </tr>
+  </table>
+  </div>
+  </hr>
+  <div class="ts">
+  <h2 style="background-color:indigo">Technical skills</h2>
+  <ul type="square">
+  <li>MS-Office</li>
+  <li>MS-Excel</li>
+  <li>MS Powerpoint</li>
+  </ul>
+  </div>
+  <hr>
+  <div class="strengths">
+  <h2 style="background-color:yellow">Strengths</h2>
+  <ul style="list-style-type:square;">
+  <li>Good communication and Interpersonal skills</li>
+  <li>Self motivated and Hardworking</li>
+  <li>Deep sence of responsibility and sincerity</li>
+  <li>Ability to work individual as well as group</li>
+  </ul>
+  </div>
+  <hr>
+  <div class="Hobbies">
+  <h2 style="background-color:grey">Hobbies</h2>
+  <ul type="I">
+  <li>Listening music</li>
+  <li>Reading books</li>
+  </ul>
+  </div>
+  <div class="pp">
+  <h2 style="background-color:violet">Personal Profile</h2>
+  <ul type="A">
+  <li>Name: shaik muskan</li>
+  <li>Father's Name: shaik Abdul Rahiman</li>
+  <li>Date of Birth:29-03-2002</li>
+  <li>Languages:English,Hindi,Telugu</li>
+  <li><address>Permanent Address:H-no:1/288</address></li>
+  </ul>
+  </div>
+  <hr>
+  <div class="Declaration">
+  <h2 style="background-color:red">Declaration</h2>
+  <p>I hereby declare that all the above furnished information is true to the best of my knowledge and belief.
+  <p>place:Kurnool</p>
+  <p style="text-align:right">date:xxxxx</p>
+  </div>
+  </body>
+  </html>
         
-            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-            <button type="submit" class="registerbtn">Register</button>
-          </div>
-        
-          <div class="container signin">
-            <p>Already have an account? <a href="#">Sign in</a>.</p>
-          </div>
-        </form>
+      </body>
+      </html>
